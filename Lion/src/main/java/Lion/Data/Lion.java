@@ -4,6 +4,12 @@ package Lion.Data;
 
 public class Lion {
 	
+	@Override
+	public String toString() {
+		return "Lion [state=" + state + ", statePrevious=" + statePrevious + ", action=" + action + ", msg=" + msg
+				+ "]";
+	}
+
 	public Lion() {
 		
 		this.state = "";
