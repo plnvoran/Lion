@@ -1,33 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32" started-at="2017-09-07T14:39:52Z" finished-at="2017-09-07T14:39:52Z">
+  <suite name="Default suite" duration-ms="36" started-at="2017-09-09T16:46:07Z" finished-at="2017-09-09T16:46:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32" started-at="2017-09-07T14:39:52Z" finished-at="2017-09-07T14:39:52Z">
-      <class name="Lion.Test.TestGraphOne">
-        <test-method status="PASS" signature="hungryToHungryByHanter()[pri:1, instance:Lion.Test.TestGraphOne@56f4468b]" name="hungryToHungryByHanter" duration-ms="7" started-at="2017-09-07T17:39:52Z" finished-at="2017-09-07T17:39:52Z">
+    <test name="Default test" duration-ms="36" started-at="2017-09-09T16:46:07Z" finished-at="2017-09-09T16:46:07Z">
+      <class name="Lion.Test.TestWithDP">
+        <test-method status="PASS" signature="setFirstPiont()[pri:0, instance:Lion.Test.TestWithDP@4520ebad]" name="setFirstPiont" is-config="true" duration-ms="7" started-at="2017-09-09T19:46:07Z" finished-at="2017-09-09T19:46:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hungryToHungryByHanter -->
-        <test-method status="PASS" signature="hungryToSatisfiteByAntilope()[pri:2, instance:Lion.Test.TestGraphOne@56f4468b]" name="hungryToSatisfiteByAntilope" duration-ms="1" started-at="2017-09-07T17:39:52Z" finished-at="2017-09-07T17:39:52Z">
+        </test-method> <!-- setFirstPiont -->
+        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@4520ebad]" name="testLionObj" duration-ms="5" started-at="2017-09-09T19:46:07Z" data-provider="Graph" finished-at="2017-09-09T19:46:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[h]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[h]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[h]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Run]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lion state has not been changed and now is:]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- hungryToSatisfiteByAntilope -->
-        <test-method status="PASS" signature="satisfiteToHungryByHanter()[pri:3, instance:Lion.Test.TestGraphOne@56f4468b]" name="satisfiteToHungryByHanter" duration-ms="2" started-at="2017-09-07T17:39:52Z" finished-at="2017-09-07T17:39:52Z">
+        </test-method> <!-- testLionObj -->
+        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@4520ebad]" name="testLionObj" duration-ms="2" started-at="2017-09-09T19:46:07Z" data-provider="Graph" finished-at="2017-09-09T19:46:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[h]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[s]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Eat]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Lion state has been changed to:]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- satisfiteToHungryByHanter -->
-        <test-method status="PASS" signature="hungryToSatisfiteByAntilopeAgain()[pri:4, instance:Lion.Test.TestGraphOne@56f4468b]" name="hungryToSatisfiteByAntilopeAgain" duration-ms="1" started-at="2017-09-07T17:39:52Z" finished-at="2017-09-07T17:39:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hungryToSatisfiteByAntilopeAgain -->
-        <test-method status="PASS" signature="satisfiteToHungryByAntilope()[pri:5, instance:Lion.Test.TestGraphOne@56f4468b]" name="satisfiteToHungryByAntilope" duration-ms="1" started-at="2017-09-07T17:39:52Z" finished-at="2017-09-07T17:39:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- satisfiteToHungryByAntilope -->
-      </class> <!-- Lion.Test.TestGraphOne -->
+        </test-method> <!-- testLionObj -->
+      </class> <!-- Lion.Test.TestWithDP -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
