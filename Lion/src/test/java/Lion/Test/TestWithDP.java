@@ -43,20 +43,15 @@ public class TestWithDP {
 
 		return arr;
 
-	}
-
-	
-	
-
+	}	
 
 	@Test(dataProvider = "Graph")
 	public void testLionObj(String iuput, String statePrevious, String state, String action, String msg) {
 
-		l.withState("h");
+	
+		etalon.withStatePrevious(statePrevious).withState(state).withAction( action).withMsg(msg);
 
-		etalon.withStatePrevious("h").withState("h").withAction("Run").withMsg(isNotChanged);
-
-		Assert.assertEquals(b.behavior("h", l), etalon);
+		Assert.assertEquals(b.behavior(iuput, l), etalon);
 
 	}
 }
