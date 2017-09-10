@@ -14,9 +14,9 @@ public class Parts {
 	}
 
 	public String setStartState(Scanner sc) {
-		
+
 		String line = sc.nextLine();
-		
+
 		return line;
 
 	}
@@ -36,11 +36,16 @@ public class Parts {
 
 	public void printResults(Lion lion) {
 
-		System.out.println("Lion's action is:");
-		System.out.println(lion.getAction());
-		System.out.println(lion.getMsg());
-		System.out.println(lion.getState());
+		if (lion.getError().equals("")) {
 
+			System.out.println("Lion's action is:");
+			System.out.println(lion.getAction());
+			System.out.println(lion.getMsg());
+			System.out.println(lion.getState());
+
+		} else {
+			System.out.println(lion.getMsg());
+		}
 	}
 
 	public void end() {

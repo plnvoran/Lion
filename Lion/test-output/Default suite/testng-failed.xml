@@ -3,12 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="Lion.Test.TestGraphOne">
+      <class name="Lion.Test.TestWithDP">
         <methods>
-          <include name="hungryToSatisfiteByAntilopeAgain"/>
-          <include name="satisfiteToHungryByAntilope"/>
+          <include name="testLionObj"/>
+          <include name="setFirstPiont"/>
         </methods>
-      </class> <!-- Lion.Test.TestGraphOne -->
+      </class> <!-- Lion.Test.TestWithDP -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
