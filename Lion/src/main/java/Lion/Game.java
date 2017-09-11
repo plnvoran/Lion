@@ -19,11 +19,15 @@ public class Game {
 
 		for (int i = 5; i > 0; i--) {
 
+			
+			
 			ui.inputStateMsg(i);
 			ui.inputState(sc, lion);
 			ui.printStateResult(lion);
 			if (lion.getError().equals("")) break;
 
+			
+			
 		}
 
 		for (int i = 5; i > 0; i--) {
