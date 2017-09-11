@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49" started-at="2017-09-10T06:53:18Z" finished-at="2017-09-10T06:53:18Z">
+  <suite name="Default suite" duration-ms="31" started-at="2017-09-11T11:13:59Z" finished-at="2017-09-11T11:13:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49" started-at="2017-09-10T06:53:18Z" finished-at="2017-09-10T06:53:18Z">
+    <test name="Default test" duration-ms="31" started-at="2017-09-11T11:13:59Z" finished-at="2017-09-11T11:13:59Z">
       <class name="Lion.Test.TestWithDP">
-        <test-method status="PASS" signature="setFirstPiont()[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="setFirstPiont" is-config="true" duration-ms="7" started-at="2017-09-10T09:53:18Z" finished-at="2017-09-10T09:53:18Z">
+        <test-method status="PASS" signature="setFirstPiont()[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="setFirstPiont" is-config="true" duration-ms="6" started-at="2017-09-11T14:13:59Z" finished-at="2017-09-11T14:13:59Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setFirstPiont -->
-        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="testLionObj" duration-ms="6" started-at="2017-09-10T09:53:18Z" data-provider="Graph" finished-at="2017-09-10T09:53:18Z">
+        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="testLionObj" duration-ms="5" started-at="2017-09-11T14:13:59Z" data-provider="Graph" finished-at="2017-09-11T14:13:59Z">
           <params>
             <param index="0">
               <value>
@@ -47,7 +47,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLionObj -->
-        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="testLionObj" duration-ms="2" started-at="2017-09-10T09:53:18Z" data-provider="Graph" finished-at="2017-09-10T09:53:18Z">
+        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="testLionObj" duration-ms="0" started-at="2017-09-11T14:13:59Z" data-provider="Graph" finished-at="2017-09-11T14:13:59Z">
           <params>
             <param index="0">
               <value>
@@ -83,7 +83,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLionObj -->
-        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="testLionObj" duration-ms="6" started-at="2017-09-10T09:53:18Z" data-provider="Graph" finished-at="2017-09-10T09:53:18Z">
+        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="testLionObj" duration-ms="1" started-at="2017-09-11T14:13:59Z" data-provider="Graph" finished-at="2017-09-11T14:13:59Z">
           <params>
             <param index="0">
               <value>
