@@ -37,19 +37,22 @@ public class UI {
 
 	}
 	
-	public String inputOutside (Scanner sc) {
+	public Lion inputState(String line, Lion lion) {
 
-		String line = sc.nextLine();
-
-		if (!line.equals("h") | !line.equals("a")) {
 		
-			line="Wrong Input!";
+		if (line.equals("h") | line.equals("s")) {
+		
+			lion.setState(line);
+			lion.setError("");
+		}
+		else {
+		
+			lion.setError("Wrong Input!");
 		}
 
-		return line;
+		return lion;
 
 	}
-	
 	
 	public void printStateResult(Lion lion) {
 
@@ -62,16 +65,29 @@ public class UI {
 			System.out.println(lion.getError());
 		}
 	}
-
 	
 	
-
+	
 	public void inputOutsideMsg(int i) {
 		System.out.println("You have " + i + " time(s) for playing");
 		System.out.println("Set what is happenning in the jungle, hanter is coming or antilope is running.");
 		System.out.println("For Antilope - press a, for Hanter: - press h:");
 	}
 
+				
+	
+	public String inputOutside (Scanner sc) {
+
+		String line = sc.nextLine();
+
+		if (!line.equals("h") && !line.equals("a")) {
+		
+			line="Wrong Input!";
+		}
+
+		return line;
+
+	}
 	
 	
 	
