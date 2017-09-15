@@ -18,15 +18,12 @@ public class Game {
 		ui.startMsg();
 
 		for (int i = 5; i > 0; i--) {
-
-			
-			
+					
 			ui.inputStateMsg(i);
 			
 			ui.printStateResult(ui.inputState(sc, lion));
 			if (lion.getError().equals("")) break;
 
-			
 			
 		}
 
@@ -35,7 +32,6 @@ public class Game {
 			if (!lion.getState().equals("")) {
 
 				ui.inputOutsideMsg(i);
-				//behavior.behavior(ui.inputOutside(sc), lion);
 				ui.printOutsideResults(behavior.behavior(ui.inputOutside(sc), lion));
 
 			}
