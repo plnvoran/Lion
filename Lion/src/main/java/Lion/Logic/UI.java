@@ -26,7 +26,13 @@ public class UI {
 
 			lion.setState(line);
 			lion.setError("");
-		} else {
+		} else if ( line.equals("q")) 
+		
+		{
+			
+		}
+		
+		else {
 
 			lion.setError("Wrong Input!");
 		}
