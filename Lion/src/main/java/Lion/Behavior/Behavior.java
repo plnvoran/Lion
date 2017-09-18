@@ -45,9 +45,6 @@ public class Behavior {
 			}
 		}
 
-		else if (lion.getState().equals("q")) {
-			
-		}
 		else {
 			lion.setError("Wrong Input!");
 		}
