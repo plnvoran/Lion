@@ -22,15 +22,11 @@ public class UI {
 
 		String line = sc.nextLine();
 
-		if (line.equals("h") | line.equals("s")) {
+		if (line.equals("h") | line.equals("s") | line.equals("q")) {
 
 			lion.setState(line);
 			lion.setError("");
-		} else if ( line.equals("q")) 
-		
-		{
-			
-		}
+		} 
 		
 		else {
 
@@ -58,12 +54,12 @@ public class UI {
 
 	public void printStateResult(Lion lion) {
 
-		if (lion.getError().equals("")) {
+		if (lion.getError().equals("") && ! lion.getState().equals("q")) {
 
 			System.out.println("Lion's state is:");
 			System.out.println(printLong(lion.getState()));
 
-		} else {
+		} else if(!lion.getState().equals("q"))  {
 			System.out.println(lion.getError());
 		}
 	}

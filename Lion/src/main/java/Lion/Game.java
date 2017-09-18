@@ -29,7 +29,7 @@ public class Game {
 
 		for (int i = 5; i > 0; i--) {
 
-			if (!lion.getState().equals("")) {
+			if (!lion.getState().equals("") && !lion.getState().equals("q") ) {
 
 				ui.inputOutsideMsg(i);
 				ui.printOutsideResults(behavior.behavior(ui.inputOutside(sc), lion));
