@@ -18,8 +18,12 @@ public class Game {
 		ui.startMsg();
 
 		for (int i = 5; i > 0; i--) {
-					
+			
+			
+			
 			ui.inputStateMsg(i);
+			
+			
 			
 			ui.printStateResult(ui.inputState(sc, lion));
 			if (lion.getError().equals("")) break;
