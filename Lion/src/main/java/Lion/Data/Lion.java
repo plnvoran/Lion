@@ -7,6 +7,9 @@ public class Lion {
 	public String action;
 	public String msg;
 	public String error;
+	public Boolean isQuit;
+
+	
 
 	
 
@@ -17,6 +20,7 @@ public class Lion {
 		this.action = "";
 		this.msg = "";
 		this.error = "";
+		this.isQuit= false;
 	}
 
 	public String getState() {
@@ -57,6 +61,14 @@ public class Lion {
 
 	public void setError(String error) {
 		this.error = error;
+	}
+	
+	public Boolean getIsQuit() {
+		return isQuit;
+	}
+
+	public void setIsQuit(Boolean isQuit) {
+		this.isQuit = isQuit;
 	}
 
 	public Lion withState(String state) {

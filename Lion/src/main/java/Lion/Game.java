@@ -37,6 +37,9 @@ public class Game {
 
 				ui.inputOutsideMsg(i);
 				ui.printOutsideResults(behavior.behavior(ui.inputOutside(sc), lion));
+				if (lion.getIsQuit()) {
+					break;
+				}
 
 			}
 

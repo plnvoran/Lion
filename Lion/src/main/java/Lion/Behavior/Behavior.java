@@ -6,7 +6,7 @@ public class Behavior {
 
 	public Lion behavior(String input, Lion lion) {
 
-		if (input.equals("h") | input.equals("a") ) {
+		if (input.equals("h") | input.equals("a") | input.equals("q")) {
 
 			if (input.equals("h")) {
 
@@ -37,10 +37,18 @@ public class Behavior {
 				}
 
 			}
-			
-			if (lion.getState().equals(lion.getStatePrevious())) {
+			else if (input.equals("q")) 
+			{
+				lion.setIsQuit(true);
+			}
+
+			if (lion.getState().equals(lion.getStatePrevious()) && lion.getIsQuit().equals(false)) {
 				lion.setMsg("Lion state has not been changed and now is:");
-			} else {
+			} else if (lion.getIsQuit()) {
+				lion.setMsg("User brake");
+			}
+
+			else {
 				lion.setMsg("Lion state has been changed to:");
 			}
 		}
