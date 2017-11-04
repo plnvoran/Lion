@@ -25,13 +25,13 @@ public class UI {
 		if (line.equals("h") | line.equals("s")) {
 
 			lion.setState(line);
-			lion.setError("");
-		} else if ( line.equals("q")) 
-		
+
+		} else if (line.equals("q"))
+
 		{
-			
+			lion.setQuit(line);
 		}
-		
+
 		else {
 
 			lion.setError("Wrong Input!");
@@ -58,17 +58,19 @@ public class UI {
 
 	public void printStateResult(Lion lion) {
 
-		if (lion.getError().equals("")) {
+		if (lion.getError().equals("") && !lion.getQuit().equals("q")) {
 
 			System.out.println("Lion's state is:");
 			System.out.println(printLong(lion.getState()));
 
-		} else {
-			System.out.println(lion.getError());
-		}
-	}
+		} else if (!lion.getError().equals("")) {
 
-	
+			{
+				System.out.println(lion.getError());
+			}
+		}
+
+	}
 
 	public void inputOutsideMsg(int i) {
 		System.out.println("You have " + i + " time(s) for playing");
@@ -119,7 +121,7 @@ public class UI {
 
 		return stateLong;
 	}
-	
+
 	public void endMsg() {
 
 		System.out.println("####   END   ####");

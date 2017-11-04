@@ -7,17 +7,21 @@ public class Lion {
 	public String action;
 	public String msg;
 	public String error;
+	public String quit;
 
 	
 
 	public Lion() {
-		super();
+	//	super();
 		this.state = "";
 		this.statePrevious = "";
 		this.action = "";
 		this.msg = "";
 		this.error = "";
+		this.quit="";
 	}
+
+	
 
 	public String getState() {
 		return state;
@@ -59,6 +63,13 @@ public class Lion {
 		this.error = error;
 	}
 
+	public String getQuit() {
+		return quit;
+	}
+
+	public void setQuit(String quit) {
+		this.quit = quit;
+	}
 	public Lion withState(String state) {
 		this.state = state;
 		return this;

@@ -18,18 +18,20 @@ public class Game {
 		ui.startMsg();
 
 		for (int i = 5; i > 0; i--) {
-					
-			ui.inputStateMsg(i);
-			
-			ui.printStateResult(ui.inputState(sc, lion));
-			if (lion.getError().equals("")) break;
 
+			ui.inputStateMsg(i);
+
+			lion=ui.inputState(sc, lion);
+			ui.printStateResult(lion);
 			
+			if (lion.getError().equals("") | lion.getQuit().equals("q"))
+				break;
+
 		}
 
 		for (int i = 5; i > 0; i--) {
 
-			if (!lion.getState().equals("")) {
+			if (!lion.getState().equals("") && !lion.getQuit().equals("q")) {
 
 				ui.inputOutsideMsg(i);
 				ui.printOutsideResults(behavior.behavior(ui.inputOutside(sc), lion));
