@@ -12,7 +12,7 @@ public class Lion {
 	
 
 	public Lion() {
-	//	super();
+	
 		this.state = "";
 		this.statePrevious = "";
 		this.action = "";

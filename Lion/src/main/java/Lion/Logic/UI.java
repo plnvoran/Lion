@@ -41,21 +41,6 @@ public class UI {
 
 	}
 
-	public Lion inputState(String line, Lion lion) {
-
-		if (line.equals("h") | line.equals("s")) {
-
-			lion.setState(line);
-			lion.setError("");
-		} else {
-
-			lion.setError("Wrong Input!");
-		}
-
-		return lion;
-
-	}
-
 	public void printStateResult(Lion lion) {
 
 		if (lion.getError().equals("") && !lion.getQuit().equals("q")) {
@@ -82,7 +67,7 @@ public class UI {
 
 		String line = sc.nextLine();
 
-		if (!line.equals("h") && !line.equals("a")) {
+		if (!line.equals("h") && !line.equals("a")  && !line.equals("q") ) {
 
 			line = "Wrong Input!";
 		}
