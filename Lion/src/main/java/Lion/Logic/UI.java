@@ -14,8 +14,9 @@ public class UI {
 	public void inputStateMsg(int i) {
 
 		System.out.println("You have " + i + " time(s) for playing");
-		System.out.println("Type the lion's state in the begining of the game and press Enter");
-		System.out.println("Satisfied - press s, Hungry: - press h: ");
+		System.out.println("Type the lion's state in the begining of the game");
+		System.out.println("Satisfied - press s, Hungry: - press h:");
+	
 	}
 
 	public Lion inputState(Scanner sc, Lion lion) {

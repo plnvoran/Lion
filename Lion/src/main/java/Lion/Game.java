@@ -21,8 +21,7 @@ public class Game {
 
 			ui.inputStateMsg(i);
 
-			lion = ui.inputState(sc, lion);
-			ui.printStateResult(lion);
+			ui.printStateResult(ui.inputState(sc, lion));
 
 			if (lion.getError().equals("") | lion.getQuit().equals("q"))
 				break;
