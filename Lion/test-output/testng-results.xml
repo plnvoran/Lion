@@ -1,125 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49" started-at="2017-09-10T06:53:18Z" finished-at="2017-09-10T06:53:18Z">
+  <suite name="Default suite" duration-ms="3218" started-at="2017-09-13T06:56:19Z" finished-at="2017-09-13T06:56:23Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49" started-at="2017-09-10T06:53:18Z" finished-at="2017-09-10T06:53:18Z">
-      <class name="Lion.Test.TestWithDP">
-        <test-method status="PASS" signature="setFirstPiont()[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="setFirstPiont" is-config="true" duration-ms="7" started-at="2017-09-10T09:53:18Z" finished-at="2017-09-10T09:53:18Z">
+    <test name="Default test" duration-ms="3218" started-at="2017-09-13T06:56:19Z" finished-at="2017-09-13T06:56:23Z">
+      <class name="Lion.Test.Press">
+        <test-method status="PASS" signature="f()[pri:0, instance:Lion.Test.Press@5d5eef3d]" name="f" duration-ms="3204" started-at="2017-09-13T09:56:19Z" finished-at="2017-09-13T09:56:23Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setFirstPiont -->
-        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="testLionObj" duration-ms="6" started-at="2017-09-10T09:53:18Z" data-provider="Graph" finished-at="2017-09-10T09:53:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[h]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[h]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[h]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Run]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Lion state has not been changed and now is:]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLionObj -->
-        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="testLionObj" duration-ms="2" started-at="2017-09-10T09:53:18Z" data-provider="Graph" finished-at="2017-09-10T09:53:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[a]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[h]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[s]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Eat]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Lion state has been changed to:]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLionObj -->
-        <test-method status="PASS" signature="testLionObj(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:Lion.Test.TestWithDP@9629756]" name="testLionObj" duration-ms="6" started-at="2017-09-10T09:53:18Z" data-provider="Graph" finished-at="2017-09-10T09:53:18Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mungust]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[h]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[s]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Eat]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Lion state has been changed to:]]>
-              </value>
-            </param>
-            <param index="5">
-              <value>
-                <![CDATA[Wrong Input!]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLionObj -->
-      </class> <!-- Lion.Test.TestWithDP -->
+        </test-method> <!-- f -->
+      </class> <!-- Lion.Test.Press -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
