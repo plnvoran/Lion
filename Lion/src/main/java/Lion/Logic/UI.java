@@ -60,8 +60,9 @@ public class UI {
 
 	public void inputOutsideMsg(int i) {
 		System.out.println("You have " + i + " time(s) for playing");
-		System.out.println("Set what is happenning in the jungle, hanter is coming or antilope is running.");
-		System.out.println("For Antilope - press a, for Hanter: - press h:");
+		System.out.println("What's happened?");
+		System.out.println("Hanter is coming or antilope is running.");
+		System.out.println("Antilope - press a, Hanter: - press h:");
 	}
 
 	public String inputOutside(Scanner sc) {
