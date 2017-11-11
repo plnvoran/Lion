@@ -14,6 +14,7 @@ public class UI {
 	public void inputStateMsg(int i) {
 
 		System.out.println("You have " + i + " time(s) for playing");
+		System.out.println("If you want to exit, pres q");
 		System.out.println("Type the lion's state in the begining of the game");
 		System.out.println("Satisfied - press s, Hungry: - press h:");
 	
@@ -60,6 +61,7 @@ public class UI {
 
 	public void inputOutsideMsg(int i) {
 		System.out.println("You have " + i + " time(s) for playing");
+		System.out.println("If you want to exit, pres q");
 		System.out.println("What's happened?");
 		System.out.println("Hanter is coming or antilope is running.");
 		System.out.println("Antilope - press a, Hanter: - press h:");
